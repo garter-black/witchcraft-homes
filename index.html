@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Property Value Guesstimate | Six Models Debate One Number | Witchcraft Homes</title>
+<meta name="description" content="AI-powered property value and strategy guesstimate: six frontier models debate any address to one number. Not a formal valuation. Commercial and residential property estimates. Powered by Hestia.">
+<link rel="canonical" href="https://witchcraft.homes/">
+<meta property="og:title" content="AI Property Value Guesstimate | Six Models Debate One Number | Witchcraft Homes">
+<meta property="og:description" content="AI-powered property value and strategy guesstimate: six frontier models debate any address to one number. Not a formal valuation. Commercial and residential property estimates. Powered by Hestia.">
+<meta property="og:url" content="https://witchcraft.homes/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#E6E0C8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300..700&family=Prata&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"AI Property Value Guesstimate | Six Models Debate One Number | Witchcraft Homes","url":"https://witchcraft.homes/","description":"AI-powered property value and strategy guesstimate: six frontier models debate any address to one number. Not a formal valuation. Commercial and residential property estimates. Powered by Hestia.","isPartOf":{"@type":"WebSite","name":"Witchcraft AI","url":"https://witchcraft.business/"},"publisher":{"@type":"Organization","name":"WITCHCRAFT AI","url":"https://pitch.black.industries/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":["LocalBusiness","ProfessionalService"],"name":"WITCHCRAFT AI Property Guesstimate Desk","alternateName":"Witchcraft Homes","description":"AI-assisted, AI-debated property value and strategy guesstimate of any address. Six frontier AI models debate fifteen methods across five lenses. PDF results to your inbox. Not a formal valuation. Independent advice recommended.","url":"https://witchcraft.homes/","telephone":"+61-451-700-056","email":"hecate@witch.codes","priceRange":"AUD $22-$40","areaServed":{"@type":"Country","name":"Australia"},"address":{"@type":"PostalAddress","addressCountry":"AU","addressRegion":"NSW","addressLocality":"Sydney","streetAddress":"G/17 The Seven Ways, Rockdale NSW 2216"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Property Guesstimate Tiers","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"BYO Keys Guesstimate","description":"$22 per guesstimate — operator brings their own API keys. Pay-as-you-go tokens run ~$67 per guesstimate."},"price":"22","priceCurrency":"AUD","availability":"https://schema.org/InStock","url":"https://buy.stripe.com/fZubIU8H20i5eDAeoT5os03"},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Use Mine Guesstimate","description":"$40 per guesstimate — all-inclusive, all API tokens and fees included."},"price":"40","priceCurrency":"AUD","availability":"https://schema.org/InStock","url":"https://buy.stripe.com/8x24gse1mgh3bro4Oj5os04"},{"@type":"Offer","itemOffered":{"@type":"Service","name":"First Address 75% Off","description":"First guesstimate at 75% off per Google account. Code: FIRST75-V2 at checkout."},"price":"5.50","priceCurrency":"AUD","availability":"https://schema.org/InStock","url":"https://buy.stripe.com/fZubIU8H20i5eDAeoT5os03"}],"provider":{"@type":"Organization","name":"WITCHCRAFT AI","url":"https://witchcraft.business/","legalName":"Butterfly Kingdom NSW Pty Ltd trading as WITCHCRAFT AI","taxID":"ABN 11 691 050 969"}}}</script>
+<style>
+:root{
+  --bg:#E6E0C8; --ink:#33413A; --bone:#F1ECD9; --sheet:#F5F1E3; --table:#B9B4A0;
+  --dim:#4B5B51; --hair:#CCC5AC; --rule:#DAD4BE;
+  --oxide:#8F3924; --focus:#B24C2E; --focus-bar:#E9A183; --steel:#456280;
+  --ring-in:#F7F3E6; --ring-out:#14191A;
+  --onbar:#CFD8CF; --onbar-lo:#B6C2B8; --barline:#232C27;
+  --disp:"Prata",Georgia,"Times New Roman",Times,serif;
+  --body:"DM Sans","Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  --glide:cubic-bezier(.22,.61,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--table);color:var(--ink);font-family:var(--body);font-weight:400;line-height:1.62;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+a{color:inherit}
+.eyebrow{font-family:var(--body);font-weight:500;font-size:10px;letter-spacing:.34em;text-transform:uppercase;color:var(--dim)}
+
+/* ---------- shell ---------- */
+.stage{position:relative;background:var(--bg)}
+html.js .stage{height:100svh;min-height:620px;overflow:hidden}
+
+/* ---------- top bar ---------- */
+.topbar{position:relative;z-index:40;display:flex;align-items:center;gap:10px 30px;flex-wrap:wrap;
+  padding:17px 26px;background:var(--ink);color:var(--bone);border-bottom:1px solid var(--barline)}
+html.js .topbar{position:absolute;top:0;left:0;right:0}
+.topbar a,.topbar .navbtn{font-family:var(--body);font-weight:500;font-size:10px;letter-spacing:.24em;
+  text-transform:uppercase;text-decoration:none;color:var(--onbar);background:none;border:0;cursor:pointer;
+  padding:7px 1px;line-height:1;transition:color .25s}
+.topbar a:hover,.topbar .navbtn:hover{color:#fff}
+.topbar a:focus-visible,.topbar .navbtn:focus-visible{outline:2px solid var(--focus-bar);outline-offset:4px}
+.topbar .brand{font-family:var(--disp);font-weight:400;text-transform:none;color:#fff;font-size:15px;
+  letter-spacing:.12em;margin-right:auto}
+.topbar .brand b{color:var(--onbar-lo);font-weight:400}
+
+/* ---------- city viewport ---------- */
+.city{position:relative;background:var(--table);overflow:hidden}
+html.js .city{position:absolute;inset:0;cursor:grab}
+html.js .city.grabbing{cursor:grabbing}
+html:not(.js) .city{overflow:auto;height:76vh;min-height:460px}
+.board{position:relative;width:1760px;height:1060px;transform-origin:0 0;touch-action:none;will-change:transform}
+.board>svg{position:absolute;left:0;top:0;width:1760px;height:1060px;display:block;shape-rendering:geometricPrecision}
+text.sign{font-family:var(--disp);font-weight:400;letter-spacing:.06em;paint-order:stroke;pointer-events:none}
+.bld{transition:transform .34s var(--glide)}
+.bld.hot{transform:translate(0,-10px)}
+.beacon{opacity:1}
+
+/* ---------- pins ---------- */
+.pin{position:absolute;background:none;border:0;padding:0;cursor:pointer;display:block}
+.pin .knob{position:absolute;width:11px;height:11px;margin:-5.5px 0 0 -5.5px;border-radius:50%;
+  background:var(--bone);border:1.5px solid var(--ink);
+  transition:transform .26s var(--glide),background .26s var(--glide)}
+.pin:hover .knob,.pin:focus-visible .knob,.pin.on .knob{transform:scale(1.6);background:var(--oxide);border-color:var(--oxide)}
+.pin:focus-visible{outline:none;box-shadow:0 0 0 2px var(--ring-in),0 0 0 4px var(--ring-out)}
+
+/* ---------- cars + beacon ---------- */
+.car{offset-rotate:0deg;opacity:0}
+.car-a{offset-path:path("M-742.4 281.6L844.8 281.6")}
+.car-b{offset-path:path("M-742.4 281.6L844.8 281.6")}
+@keyframes drive{0%{offset-distance:0%;opacity:0}8%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+@keyframes blink{0%,44%{opacity:1}50%,94%{opacity:.14}100%{opacity:1}}
+html.js .car-a{animation:drive 13s linear infinite}
+html.js .car-b{animation:drive 17s linear infinite 4.5s}
+html.js .beacon{animation:blink 3.2s steps(1,end) infinite}
+
+/* ---------- title card ---------- */
+.titlecard{position:relative;z-index:30;pointer-events:none;padding:30px 22px 36px}
+html.js .titlecard{position:absolute;left:max(22px,3.4vw);top:96px;width:min(690px,calc(100% - 44px));padding:0}
+.tc-in{pointer-events:auto;background:var(--sheet);border:1px solid var(--hair);padding:38px 38px 40px;max-width:690px}
+html.js .tc-in{max-height:calc(100svh - 150px);overflow-y:auto}
+
+/* ---------- the motion title ---------- */
+h1{font-family:var(--disp);font-weight:400;font-size:clamp(34px,5vw,52px);line-height:1.12;
+  letter-spacing:.012em;margin-top:22px;color:var(--ink)}
+h1 i{font-style:normal;color:var(--oxide)}
+.mt-l{display:block;overflow:hidden}
+.mt-w{display:block}
+@keyframes mt-rise{
+  0%{opacity:0;filter:blur(7px);transform:translate3d(0,1.1em,0)}
+  58%{opacity:1}
+  100%{opacity:1;filter:blur(0);transform:translate3d(0,0,0)}
+}
+@keyframes mt-rule{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+.mt-w{animation:mt-rise 1s var(--glide) both}
+.mt-l+.mt-l .mt-w{animation-delay:.17s}
+.rule-sole{width:120px;height:1px;background:var(--oxide);margin:26px 0 0;transform-origin:0 50%;
+  animation:mt-rule .8s var(--glide) .66s both}
+html.paused .mt-w,html.paused .rule-sole,html.paused .car-a,html.paused .car-b,html.paused .beacon{animation-play-state:paused}
+
+.promise{font-size:clamp(16px,1.9vw,20px);line-height:1.45;font-weight:400;margin-top:26px;max-width:34ch;color:var(--ink)}
+.lede{margin-top:18px;font-size:15px;line-height:1.72;color:var(--dim);max-width:52ch}
+.cta{display:inline-block;margin-top:28px;font-family:var(--body);font-weight:500;font-size:10px;letter-spacing:.24em;
+  text-transform:uppercase;text-decoration:none;background:var(--ink);color:var(--bone);
+  padding:14px 20px;border:1px solid var(--ink);transition:background .25s,color .25s,border-color .25s}
+.cta:hover{background:transparent;color:var(--ink)}
+.cta:focus-visible{outline:2px solid var(--focus);outline-offset:4px}
+.cta.ghost{background:transparent;color:var(--ink)}
+.cta.ghost:hover{background:var(--ink);color:var(--bone)}
+.hint{margin-top:24px;font-family:var(--body);font-weight:500;font-size:9.5px;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--dim)}
+html.js body.open .titlecard{opacity:0;transform:translateY(-10px);pointer-events:none;transition:opacity .4s,transform .4s}
+html.js .titlecard{transition:opacity .4s,transform .4s}
+
+/* ---------- compass ---------- */
+.compass{position:relative;z-index:35;margin:22px;width:128px;pointer-events:none}
+html.js .compass{position:absolute;left:max(22px,3.4vw);bottom:90px;margin:0}
+.compass .cbox{background:var(--sheet);border:1px solid var(--hair);padding:13px 13px 11px}
+.compass svg{display:block;width:100%;height:auto}
+.mdot{fill:var(--ink);opacity:.5}
+.mdot-tall{fill:var(--oxide);opacity:1}
+#viewbox{fill:rgba(143,57,36,.14);stroke:var(--oxide);stroke-width:10}
+.compass .clabel{font-family:var(--body);font-weight:500;font-size:9px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--dim);margin-top:10px;text-align:center}
+html:not(.js) .compass{display:none}
+
+/* ---------- foot bar ---------- */
+.footbar{position:relative;z-index:40;background:var(--ink);color:var(--onbar);padding:16px 26px;border-top:1px solid var(--barline)}
+html.js .footbar{position:absolute;left:0;right:0;bottom:0}
+.fline{display:flex;gap:10px 32px;flex-wrap:wrap;align-items:baseline}
+.footbar a{font-family:var(--body);font-weight:500;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;
+  text-decoration:none;color:var(--onbar);transition:color .25s}
+.footbar a:hover{color:#fff}
+.footbar a:focus-visible{outline:2px solid var(--focus-bar);outline-offset:4px}
+.footbar .label{font-family:var(--body);font-weight:500;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--onbar-lo)}
+.legal{margin-top:12px;font-family:var(--body);font-weight:400;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--onbar-lo)}
+
+/* ---------- sheets ---------- */
+.sheets{position:relative;z-index:60}
+html.js .sheets{position:fixed;inset:0;pointer-events:none}
+html.js .sheet{pointer-events:auto}
+.sheet{background:var(--sheet);border-top:1px solid var(--hair);padding:40px 22px 56px}
+html.js .sheet{position:absolute;top:0;right:0;bottom:0;width:min(600px,100%);border-top:0;border-left:1px solid var(--hair);
+  padding:26px 38px 56px;overflow-y:auto;overscroll-behavior:contain;
+  transform:translateX(102%);visibility:hidden;transition:transform .46s var(--glide),visibility .46s}
+html.js .sheet.open{transform:none;visibility:visible}
+@media(max-width:720px){html.js .sheet{width:100%;top:auto;height:76svh;transform:translateY(102%);border-left:0;border-top:1px solid var(--hair)}}
+.sheet-head{display:flex;align-items:flex-start;gap:18px;justify-content:space-between;
+  border-bottom:1px solid var(--rule);position:sticky;top:-26px;background:var(--sheet);
+  margin:-26px -38px 30px;padding:26px 38px 14px}
+html:not(.js) .sheet-head{position:static;margin:0 0 30px;padding:0 0 14px}
+.sheet h2{font-family:var(--disp);font-weight:400;font-size:clamp(23px,2.8vw,33px);line-height:1.2;
+  letter-spacing:.008em;margin-top:22px;max-width:21ch}
+.sheet .lede{max-width:54ch}
+.closer{font-family:var(--body);font-weight:500;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;
+  background:transparent;color:var(--ink);border:1px solid var(--hair);padding:10px 13px;cursor:pointer;
+  flex:0 0 auto;line-height:1;transition:background .25s,color .25s,border-color .25s}
+.closer:hover{background:var(--ink);border-color:var(--ink);color:var(--bone)}
+.closer:focus-visible{outline:2px solid var(--focus);outline-offset:4px}
+html:not(.js) .closer{display:none}
+
+.lens{display:grid;grid-template-columns:50px 1fr 74px;gap:16px;align-items:start;
+  padding:22px 14px;margin:0 -14px;border-top:1px solid var(--rule);transition:background .35s}
+.lens:last-of-type{border-bottom:1px solid var(--rule)}
+.lens .n{font-family:var(--disp);font-size:15px;color:var(--oxide);line-height:1.3}
+.lens h3{font-family:var(--disp);font-weight:400;font-size:15px;letter-spacing:.1em;text-transform:uppercase;line-height:1.3}
+.lens p{font-size:14.5px;color:var(--dim);margin-top:9px;max-width:50ch}
+.lens .meta{font-family:var(--body);font-weight:500;font-size:9px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--steel);text-align:right;line-height:1.5}
+.lens.lit{background:rgba(143,57,36,.075)}
+@media(max-width:520px){.lens{grid-template-columns:38px 1fr}.lens .meta{grid-column:2;text-align:left;margin-top:10px}}
+
+.pull{font-family:var(--disp);font-weight:400;font-size:clamp(25px,3.5vw,40px);line-height:1.16;max-width:17ch;margin-top:22px}
+figure.plate{margin:30px 0 0}
+figure.plate svg{display:block;width:100%;max-width:440px;stroke:var(--ink);fill:none;stroke-width:1.4;
+  background:var(--bg);border:1px solid var(--hair);padding:18px}
+figure.plate figcaption{font-family:var(--body);font-weight:500;font-size:9px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--dim);margin-top:16px}
+.tag{display:inline-block;font-family:var(--body);font-weight:500;font-size:9px;letter-spacing:.24em;
+  text-transform:uppercase;background:transparent;color:var(--dim);border:1px solid var(--hair);padding:8px 11px;line-height:1}
+.doc-only{display:none}
+html:not(.js) .doc-only{display:block;font-family:var(--body);font-weight:500;font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--dim);padding:20px 22px;background:var(--bg);border-top:1px solid var(--hair)}
+
+@media(prefers-reduced-motion:reduce){
+  html.js .car-a,html.js .car-b{animation:none;opacity:0}
+  html.js .beacon{animation:none;opacity:1}
+  .mt-w{animation:none;opacity:1;filter:none;transform:none}
+  .rule-sole{animation:none;transform:none}
+  .bld,.sheet,.titlecard,.pin .knob,.cta,.closer,.topbar a,.footbar a{transition:none}
+}
+</style>
+</head>
+<body>
+<div class="stage">
+
+<nav class="topbar" aria-label="Neighbourhood">
+  <a class="brand" href="/">WITCHCRAFT<b>.</b>HOMES</a>
+  <a href="#appraisal" data-sheet="appraisal" data-key="statutory">AI-GUESSTIMATE</a>
+  <a href="#hestia" data-sheet="hestia" data-key="hestia">HESTIA</a>
+  <a href="#desk" data-sheet="desk" data-key="desk">THE DESK</a>
+  <a href="https://witchcraft.business">WITCHCRAFT.BUSINESS ↗</a>
+</nav>
+
+<div class="city" id="city">
+  <div class="board" id="board">
+    <svg viewBox="-800 -270 1760 1060" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="-800" y="-270" width="1760" height="1060" fill="#C2C0AC"/><polygon points="-768,294.4 128,742.4 128,757.4 -768,309.4" fill="#989484"/><polygon points="128,742.4 947.2,332.8 947.2,347.8 128,757.4" fill="#7C796C"/><polygon points="51.2,-115.2 947.2,332.8 128,742.4 -768,294.4" fill="#E6E0C8"/><path d="M51.2 -115.2L-768 294.4M179.2 -51.2L-640 358.4M307.2 12.8L-512 422.4M435.2 76.8L-384 486.4M563.2 140.8L-256 550.4M691.2 204.8L-128 614.4M819.2 268.8L0 678.4M947.2 332.8L128 742.4M51.2 -115.2L947.2 332.8M-76.8 -51.2L819.2 396.8M-204.8 12.8L691.2 460.8M-332.8 76.8L563.2 524.8M-460.8 140.8L435.2 588.8M-588.8 204.8L307.2 652.8M-716.8 268.8L179.2 716.8" fill="none" stroke="#33413A" stroke-opacity=".13" stroke-width="1"/><polygon points="-345.6,300.8 -236.8,355.2 -345.6,409.6 -454.4,355.2" fill="#97AB9C" stroke="#33413A" stroke-opacity=".18" stroke-width="1"/><polygon points="300.8,240 409.6,294.4 300.8,348.8 192,294.4" fill="#97AB9C" stroke="#33413A" stroke-opacity=".18" stroke-width="1"/><polygon points="-588.8,256 -486.4,307.2 -588.8,358.4 -691.2,307.2" fill="#97AB9C" stroke="#33413A" stroke-opacity=".18" stroke-width="1"/><polygon points="531.2,272 633.6,323.2 544,368 441.6,316.8" fill="#97AB9C" stroke="#33413A" stroke-opacity=".18" stroke-width="1"/><polygon points="-473.6,345.6 -364.8,400 -454.4,444.8 -563.2,390.4" fill="#97AB9C" stroke="#33413A" stroke-opacity=".18" stroke-width="1"/><polygon points="102.4,563.2 204.8,614.4 102.4,665.6 0,614.4" fill="#97AB9C" stroke="#33413A" stroke-opacity=".18" stroke-width="1"/><clipPath id="clip-plate"><polygon points="51.2,-115.2 947.2,332.8 128,742.4 -768,294.4"/></clipPath><g clip-path="url(#clip-plate)"><path d="M-742.4 281.6L844.8 281.6" fill="none" stroke="#4A5359" stroke-width="41.2" stroke-linecap="butt"/><path d="M-742.4 281.6L844.8 281.6" fill="none" stroke="#7C8891" stroke-width="36.2" stroke-linecap="butt"/><path d="M-742.4 281.6L844.8 281.6" fill="none" stroke="#F1ECD9" stroke-opacity=".7" stroke-width="2" stroke-dasharray="10 13"/><path d="M-140.8 608L396.8 608" fill="none" stroke="#4A5359" stroke-width="41.2" stroke-linecap="butt"/><path d="M-140.8 608L396.8 608" fill="none" stroke="#7C8891" stroke-width="36.2" stroke-linecap="butt"/><path d="M-140.8 608L396.8 608" fill="none" stroke="#F1ECD9" stroke-opacity=".7" stroke-width="2" stroke-dasharray="10 13"/><path d="M403.2 560L147.2 688" fill="none" stroke="#4A5359" stroke-width="45.07" stroke-linecap="butt"/><path d="M403.2 560L147.2 688" fill="none" stroke="#7C8891" stroke-width="40.07" stroke-linecap="butt"/><path d="M-268.8 76.8L-678.4 281.6" fill="none" stroke="#4A5359" stroke-width="45.07" stroke-linecap="butt"/><path d="M-268.8 76.8L-678.4 281.6" fill="none" stroke="#7C8891" stroke-width="40.07" stroke-linecap="butt"/></g><polygon points="35.4,67.2 41.4,67.2 41.4,55.2 35.4,55.2" fill="#2E3A34"/><polygon points="19.2,43.2 38.4,52.8 38.4,76.8 19.2,67.2" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="38.4,52.8 57.6,43.2 57.6,67.2 38.4,76.8" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="38.4,33.6 57.6,43.2 38.4,52.8 19.2,43.2" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-131,80 -125,80 -125,68 -131,68" fill="#2E3A34"/><polygon points="-147.2,56 -128,65.6 -128,89.6 -147.2,80" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-128,65.6 -108.8,56 -108.8,80 -128,89.6" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-128,46.4 -108.8,56 -128,65.6 -147.2,56" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><g class="bld" id="b-desk"><polygon points="-428.8,69.6 -320,124 -320,256 -428.8,201.6" fill="#8695A1" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-320,124 -211.2,69.6 -211.2,201.6 -320,256" fill="#515C66" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-413.44,97.28 -400.64,103.68 -400.64,119.68 -413.44,113.28" fill="#9DA8AF"/><polygon points="-391.68,108.16 -378.88,114.56 -378.88,130.56 -391.68,124.16" fill="#9DA8AF"/><polygon points="-369.92,119.04 -357.12,125.44 -357.12,141.44 -369.92,135.04" fill="#DFC084"/><polygon points="-348.16,129.92 -335.36,136.32 -335.36,152.32 -348.16,145.92" fill="#9DA8AF"/><polygon points="-413.44,127.28 -400.64,133.68 -400.64,149.68 -413.44,143.28" fill="#9DA8AF"/><polygon points="-391.68,138.16 -378.88,144.56 -378.88,160.56 -391.68,154.16" fill="#DFC084"/><polygon points="-369.92,149.04 -357.12,155.44 -357.12,171.44 -369.92,165.04" fill="#9DA8AF"/><polygon points="-348.16,159.92 -335.36,166.32 -335.36,182.32 -348.16,175.92" fill="#DFC084"/><polygon points="-413.44,157.28 -400.64,163.68 -400.64,179.68 -413.44,173.28" fill="#9DA8AF"/><polygon points="-391.68,168.16 -378.88,174.56 -378.88,190.56 -391.68,184.16" fill="#9DA8AF"/><polygon points="-369.92,179.04 -357.12,185.44 -357.12,201.44 -369.92,195.04" fill="#9DA8AF"/><polygon points="-348.16,189.92 -335.36,196.32 -335.36,212.32 -348.16,205.92" fill="#9DA8AF"/><polygon points="-304.64,145.32 -291.84,138.92 -291.84,154.92 -304.64,161.32" fill="#7F868C"/><polygon points="-282.88,134.44 -270.08,128.04 -270.08,144.04 -282.88,150.44" fill="#BCA173"/><polygon points="-261.12,123.56 -248.32,117.16 -248.32,133.16 -261.12,139.56" fill="#7F868C"/><polygon points="-239.36,112.68 -226.56,106.28 -226.56,122.28 -239.36,128.68" fill="#BCA173"/><polygon points="-304.64,175.32 -291.84,168.92 -291.84,184.92 -304.64,191.32" fill="#7F868C"/><polygon points="-282.88,164.44 -270.08,158.04 -270.08,174.04 -282.88,180.44" fill="#BCA173"/><polygon points="-261.12,153.56 -248.32,147.16 -248.32,163.16 -261.12,169.56" fill="#BCA173"/><polygon points="-239.36,142.68 -226.56,136.28 -226.56,152.28 -239.36,158.68" fill="#7F868C"/><polygon points="-304.64,205.32 -291.84,198.92 -291.84,214.92 -304.64,221.32" fill="#7F868C"/><polygon points="-282.88,194.44 -270.08,188.04 -270.08,204.04 -282.88,210.44" fill="#BCA173"/><polygon points="-261.12,183.56 -248.32,177.16 -248.32,193.16 -261.12,199.56" fill="#BCA173"/><polygon points="-239.36,172.68 -226.56,166.28 -226.56,182.28 -239.36,188.68" fill="#7F868C"/><polygon points="-320,15.2 -211.2,69.6 -320,124 -428.8,69.6" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><text class="sign" transform="matrix(1,0.5,0,1,-418.56,193.72)" font-size="14.04" textLength="83.2" lengthAdjust="spacingAndGlyphs" fill="#14191A">THE DESK</text></g><g class="bld" id="b-hestia"><polygon points="-198.4,-94.4 -89.6,-40 -89.6,256 -198.4,201.6" fill="#EFEBDB" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-89.6,-40 19.2,-94.4 19.2,201.6 -89.6,256" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-183.04,-59.72 -170.24,-53.32 -170.24,-37.32 -183.04,-43.72" fill="#605E57"/><polygon points="-161.28,-48.84 -148.48,-42.44 -148.48,-26.44 -161.28,-32.84" fill="#605E57"/><polygon points="-139.52,-37.96 -126.72,-31.56 -126.72,-15.56 -139.52,-21.96" fill="#605E57"/><polygon points="-117.76,-27.08 -104.96,-20.68 -104.96,-4.68 -117.76,-11.08" fill="#605E57"/><polygon points="-183.04,-29.72 -170.24,-23.32 -170.24,-7.32 -183.04,-13.72" fill="#605E57"/><polygon points="-161.28,-18.84 -148.48,-12.44 -148.48,3.56 -161.28,-2.84" fill="#605E57"/><polygon points="-139.52,-7.96 -126.72,-1.56 -126.72,14.44 -139.52,8.04" fill="#605E57"/><polygon points="-117.76,2.92 -104.96,9.32 -104.96,25.32 -117.76,18.92" fill="#605E57"/><polygon points="-183.04,0.28 -170.24,6.68 -170.24,22.68 -183.04,16.28" fill="#605E57"/><polygon points="-161.28,11.16 -148.48,17.56 -148.48,33.56 -161.28,27.16" fill="#605E57"/><polygon points="-139.52,22.04 -126.72,28.44 -126.72,44.44 -139.52,38.04" fill="#605E57"/><polygon points="-117.76,32.92 -104.96,39.32 -104.96,55.32 -117.76,48.92" fill="#605E57"/><polygon points="-183.04,30.28 -170.24,36.68 -170.24,52.68 -183.04,46.28" fill="#605E57"/><polygon points="-161.28,41.16 -148.48,47.56 -148.48,63.56 -161.28,57.16" fill="#605E57"/><polygon points="-139.52,52.04 -126.72,58.44 -126.72,74.44 -139.52,68.04" fill="#605E57"/><polygon points="-117.76,62.92 -104.96,69.32 -104.96,85.32 -117.76,78.92" fill="#605E57"/><polygon points="-183.04,60.28 -170.24,66.68 -170.24,82.68 -183.04,76.28" fill="#605E57"/><polygon points="-161.28,71.16 -148.48,77.56 -148.48,93.56 -161.28,87.16" fill="#605E57"/><polygon points="-139.52,82.04 -126.72,88.44 -126.72,104.44 -139.52,98.04" fill="#605E57"/><polygon points="-117.76,92.92 -104.96,99.32 -104.96,115.32 -117.76,108.92" fill="#605E57"/><polygon points="-183.04,90.28 -170.24,96.68 -170.24,112.68 -183.04,106.28" fill="#605E57"/><polygon points="-161.28,101.16 -148.48,107.56 -148.48,123.56 -161.28,117.16" fill="#605E57"/><polygon points="-139.52,112.04 -126.72,118.44 -126.72,134.44 -139.52,128.04" fill="#605E57"/><polygon points="-117.76,122.92 -104.96,129.32 -104.96,145.32 -117.76,138.92" fill="#605E57"/><polygon points="-183.04,120.28 -170.24,126.68 -170.24,142.68 -183.04,136.28" fill="#605E57"/><polygon points="-161.28,131.16 -148.48,137.56 -148.48,153.56 -161.28,147.16" fill="#605E57"/><polygon points="-139.52,142.04 -126.72,148.44 -126.72,164.44 -139.52,158.04" fill="#605E57"/><polygon points="-117.76,152.92 -104.96,159.32 -104.96,175.32 -117.76,168.92" fill="#605E57"/><polygon points="-183.04,150.28 -170.24,156.68 -170.24,172.68 -183.04,166.28" fill="#605E57"/><polygon points="-161.28,161.16 -148.48,167.56 -148.48,183.56 -161.28,177.16" fill="#DFC084"/><polygon points="-139.52,172.04 -126.72,178.44 -126.72,194.44 -139.52,188.04" fill="#DFC084"/><polygon points="-117.76,182.92 -104.96,189.32 -104.96,205.32 -117.76,198.92" fill="#605E57"/><polygon points="-74.24,-26.68 -61.44,-33.08 -61.44,-17.08 -74.24,-10.68" fill="#4B4944"/><polygon points="-52.48,-37.56 -39.68,-43.96 -39.68,-27.96 -52.48,-21.56" fill="#4B4944"/><polygon points="-30.72,-48.44 -17.92,-54.84 -17.92,-38.84 -30.72,-32.44" fill="#BCA173"/><polygon points="-8.96,-59.32 3.84,-65.72 3.84,-49.72 -8.96,-43.32" fill="#4B4944"/><polygon points="-74.24,3.32 -61.44,-3.08 -61.44,12.92 -74.24,19.32" fill="#4B4944"/><polygon points="-52.48,-7.56 -39.68,-13.96 -39.68,2.04 -52.48,8.44" fill="#4B4944"/><polygon points="-30.72,-18.44 -17.92,-24.84 -17.92,-8.84 -30.72,-2.44" fill="#BCA173"/><polygon points="-8.96,-29.32 3.84,-35.72 3.84,-19.72 -8.96,-13.32" fill="#4B4944"/><polygon points="-74.24,33.32 -61.44,26.92 -61.44,42.92 -74.24,49.32" fill="#4B4944"/><polygon points="-52.48,22.44 -39.68,16.04 -39.68,32.04 -52.48,38.44" fill="#4B4944"/><polygon points="-30.72,11.56 -17.92,5.16 -17.92,21.16 -30.72,27.56" fill="#4B4944"/><polygon points="-8.96,0.68 3.84,-5.72 3.84,10.28 -8.96,16.68" fill="#4B4944"/><polygon points="-74.24,63.32 -61.44,56.92 -61.44,72.92 -74.24,79.32" fill="#4B4944"/><polygon points="-52.48,52.44 -39.68,46.04 -39.68,62.04 -52.48,68.44" fill="#4B4944"/><polygon points="-30.72,41.56 -17.92,35.16 -17.92,51.16 -30.72,57.56" fill="#4B4944"/><polygon points="-8.96,30.68 3.84,24.28 3.84,40.28 -8.96,46.68" fill="#4B4944"/><polygon points="-74.24,93.32 -61.44,86.92 -61.44,102.92 -74.24,109.32" fill="#4B4944"/><polygon points="-52.48,82.44 -39.68,76.04 -39.68,92.04 -52.48,98.44" fill="#4B4944"/><polygon points="-30.72,71.56 -17.92,65.16 -17.92,81.16 -30.72,87.56" fill="#4B4944"/><polygon points="-8.96,60.68 3.84,54.28 3.84,70.28 -8.96,76.68" fill="#BCA173"/><polygon points="-74.24,123.32 -61.44,116.92 -61.44,132.92 -74.24,139.32" fill="#BCA173"/><polygon points="-52.48,112.44 -39.68,106.04 -39.68,122.04 -52.48,128.44" fill="#4B4944"/><polygon points="-30.72,101.56 -17.92,95.16 -17.92,111.16 -30.72,117.56" fill="#4B4944"/><polygon points="-8.96,90.68 3.84,84.28 3.84,100.28 -8.96,106.68" fill="#BCA173"/><polygon points="-74.24,153.32 -61.44,146.92 -61.44,162.92 -74.24,169.32" fill="#4B4944"/><polygon points="-52.48,142.44 -39.68,136.04 -39.68,152.04 -52.48,158.44" fill="#4B4944"/><polygon points="-30.72,131.56 -17.92,125.16 -17.92,141.16 -30.72,147.56" fill="#4B4944"/><polygon points="-8.96,120.68 3.84,114.28 3.84,130.28 -8.96,136.68" fill="#4B4944"/><polygon points="-74.24,183.32 -61.44,176.92 -61.44,192.92 -74.24,199.32" fill="#4B4944"/><polygon points="-52.48,172.44 -39.68,166.04 -39.68,182.04 -52.48,188.44" fill="#BCA173"/><polygon points="-30.72,161.56 -17.92,155.16 -17.92,171.16 -30.72,177.56" fill="#4B4944"/><polygon points="-8.96,150.68 3.84,144.28 3.84,160.28 -8.96,166.68" fill="#4B4944"/><polygon points="-74.24,213.32 -61.44,206.92 -61.44,222.92 -74.24,229.32" fill="#4B4944"/><polygon points="-52.48,202.44 -39.68,196.04 -39.68,212.04 -52.48,218.44" fill="#BCA173"/><polygon points="-30.72,191.56 -17.92,185.16 -17.92,201.16 -30.72,207.56" fill="#4B4944"/><polygon points="-8.96,180.68 3.84,174.28 3.84,190.28 -8.96,196.68" fill="#4B4944"/><polygon points="-89.6,-148.8 19.2,-94.4 -89.6,-40 -198.4,-94.4" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><text class="sign" transform="matrix(1,0.5,0,1,-188.16,193.72)" font-size="18.78" textLength="81.6" lengthAdjust="spacingAndGlyphs" fill="#14191A">HESTIA</text><g transform="translate(0,-296)"><polygon points="-162.56,155.6 -89.6,192.08 -89.6,238.08 -162.56,201.6" fill="#C08D7B" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-89.6,192.08 -16.64,155.6 -16.64,201.6 -89.6,238.08" fill="#7E5A4C" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-89.6,119.12 -16.64,155.6 -89.6,192.08 -162.56,155.6" fill="#CBACA1" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/></g><line x1="-89.6" y1="-140.4" x2="-89.6" y2="-174.4" stroke="#33413A" stroke-width="3"/><circle class="beacon" cx="-89.6" cy="-178.4" r="6" fill="#C07C68"/></g><g class="bld" id="b-statutory"><polygon points="32,61.6 140.8,116 140.8,256 32,201.6" fill="#8695A1" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="140.8,116 249.6,61.6 249.6,201.6 140.8,256" fill="#515C66" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="47.36,93.28 60.16,99.68 60.16,115.68 47.36,109.28" fill="#9DA8AF"/><polygon points="69.12,104.16 81.92,110.56 81.92,126.56 69.12,120.16" fill="#9DA8AF"/><polygon points="90.88,115.04 103.68,121.44 103.68,137.44 90.88,131.04" fill="#9DA8AF"/><polygon points="112.64,125.92 125.44,132.32 125.44,148.32 112.64,141.92" fill="#9DA8AF"/><polygon points="47.36,123.28 60.16,129.68 60.16,145.68 47.36,139.28" fill="#DFC084"/><polygon points="69.12,134.16 81.92,140.56 81.92,156.56 69.12,150.16" fill="#9DA8AF"/><polygon points="90.88,145.04 103.68,151.44 103.68,167.44 90.88,161.04" fill="#9DA8AF"/><polygon points="112.64,155.92 125.44,162.32 125.44,178.32 112.64,171.92" fill="#9DA8AF"/><polygon points="47.36,153.28 60.16,159.68 60.16,175.68 47.36,169.28" fill="#9DA8AF"/><polygon points="69.12,164.16 81.92,170.56 81.92,186.56 69.12,180.16" fill="#9DA8AF"/><polygon points="90.88,175.04 103.68,181.44 103.68,197.44 90.88,191.04" fill="#DFC084"/><polygon points="112.64,185.92 125.44,192.32 125.44,208.32 112.64,201.92" fill="#9DA8AF"/><polygon points="156.16,126.32 168.96,119.92 168.96,135.92 156.16,142.32" fill="#BCA173"/><polygon points="177.92,115.44 190.72,109.04 190.72,125.04 177.92,131.44" fill="#BCA173"/><polygon points="199.68,104.56 212.48,98.16 212.48,114.16 199.68,120.56" fill="#7F868C"/><polygon points="221.44,93.68 234.24,87.28 234.24,103.28 221.44,109.68" fill="#BCA173"/><polygon points="156.16,156.32 168.96,149.92 168.96,165.92 156.16,172.32" fill="#7F868C"/><polygon points="177.92,145.44 190.72,139.04 190.72,155.04 177.92,161.44" fill="#BCA173"/><polygon points="199.68,134.56 212.48,128.16 212.48,144.16 199.68,150.56" fill="#7F868C"/><polygon points="221.44,123.68 234.24,117.28 234.24,133.28 221.44,139.68" fill="#7F868C"/><polygon points="156.16,186.32 168.96,179.92 168.96,195.92 156.16,202.32" fill="#7F868C"/><polygon points="177.92,175.44 190.72,169.04 190.72,185.04 177.92,191.44" fill="#BCA173"/><polygon points="199.68,164.56 212.48,158.16 212.48,174.16 199.68,180.56" fill="#7F868C"/><polygon points="221.44,153.68 234.24,147.28 234.24,163.28 221.44,169.68" fill="#7F868C"/><polygon points="156.16,216.32 168.96,209.92 168.96,225.92 156.16,232.32" fill="#7F868C"/><polygon points="177.92,205.44 190.72,199.04 190.72,215.04 177.92,221.44" fill="#7F868C"/><polygon points="199.68,194.56 212.48,188.16 212.48,204.16 199.68,210.56" fill="#7F868C"/><polygon points="221.44,183.68 234.24,177.28 234.24,193.28 221.44,199.68" fill="#7F868C"/><polygon points="140.8,7.2 249.6,61.6 140.8,116 32,61.6" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><text class="sign" transform="matrix(1,0.5,0,1,42.24,193.72)" font-size="13.33" textLength="93.6" lengthAdjust="spacingAndGlyphs" fill="#14191A">STATUTORY</text></g><g class="bld" id="b-comparable"><polygon points="262.4,97.6 371.2,152 371.2,256 262.4,201.6" fill="#EFEBDB" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="371.2,152 480,97.6 480,201.6 371.2,256" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="277.76,126.28 290.56,132.68 290.56,148.68 277.76,142.28" fill="#DFC084"/><polygon points="299.52,137.16 312.32,143.56 312.32,159.56 299.52,153.16" fill="#605E57"/><polygon points="321.28,148.04 334.08,154.44 334.08,170.44 321.28,164.04" fill="#605E57"/><polygon points="343.04,158.92 355.84,165.32 355.84,181.32 343.04,174.92" fill="#605E57"/><polygon points="277.76,156.28 290.56,162.68 290.56,178.68 277.76,172.28" fill="#605E57"/><polygon points="299.52,167.16 312.32,173.56 312.32,189.56 299.52,183.16" fill="#605E57"/><polygon points="321.28,178.04 334.08,184.44 334.08,200.44 321.28,194.04" fill="#605E57"/><polygon points="343.04,188.92 355.84,195.32 355.84,211.32 343.04,204.92" fill="#DFC084"/><polygon points="386.56,174.32 399.36,167.92 399.36,183.92 386.56,190.32" fill="#4B4944"/><polygon points="408.32,163.44 421.12,157.04 421.12,173.04 408.32,179.44" fill="#4B4944"/><polygon points="430.08,152.56 442.88,146.16 442.88,162.16 430.08,168.56" fill="#4B4944"/><polygon points="451.84,141.68 464.64,135.28 464.64,151.28 451.84,157.68" fill="#BCA173"/><polygon points="386.56,204.32 399.36,197.92 399.36,213.92 386.56,220.32" fill="#4B4944"/><polygon points="408.32,193.44 421.12,187.04 421.12,203.04 408.32,209.44" fill="#4B4944"/><polygon points="430.08,182.56 442.88,176.16 442.88,192.16 430.08,198.56" fill="#4B4944"/><polygon points="451.84,171.68 464.64,165.28 464.64,181.28 451.84,187.68" fill="#4B4944"/><polygon points="371.2,43.2 480,97.6 371.2,152 262.4,97.6" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><text class="sign" transform="matrix(1,0.5,0,1,272.64,193.72)" font-size="11.78" textLength="96" lengthAdjust="spacingAndGlyphs" fill="#14191A">COMPARABLE</text></g><polygon points="297.8,265.6 303.8,265.6 303.8,253.6 297.8,253.6" fill="#2E3A34"/><polygon points="281.6,241.6 300.8,251.2 300.8,275.2 281.6,265.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="300.8,251.2 320,241.6 320,265.6 300.8,275.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="300.8,232 320,241.6 300.8,251.2 281.6,241.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="86.6,265.6 92.6,265.6 92.6,253.6 86.6,253.6" fill="#2E3A34"/><polygon points="70.4,241.6 89.6,251.2 89.6,275.2 70.4,265.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="89.6,251.2 108.8,241.6 108.8,265.6 89.6,275.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="89.6,232 108.8,241.6 89.6,251.2 70.4,241.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-591.8,281.6 -585.8,281.6 -585.8,269.6 -591.8,269.6" fill="#2E3A34"/><polygon points="-608,257.6 -588.8,267.2 -588.8,291.2 -608,281.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-588.8,267.2 -569.6,257.6 -569.6,281.6 -588.8,291.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-588.8,248 -569.6,257.6 -588.8,267.2 -608,257.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="249.8,292.8 255.8,292.8 255.8,280.8 249.8,280.8" fill="#2E3A34"/><polygon points="233.6,268.8 252.8,278.4 252.8,302.4 233.6,292.8" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="252.8,278.4 272,268.8 272,292.8 252.8,302.4" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="252.8,259.2 272,268.8 252.8,278.4 233.6,268.8" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="531.4,296 537.4,296 537.4,284 531.4,284" fill="#2E3A34"/><polygon points="515.2,272 534.4,281.6 534.4,305.6 515.2,296" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="534.4,281.6 553.6,272 553.6,296 534.4,305.6" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="534.4,262.4 553.6,272 534.4,281.6 515.2,272" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="323.4,297.6 329.4,297.6 329.4,285.6 323.4,285.6" fill="#2E3A34"/><polygon points="307.2,273.6 326.4,283.2 326.4,307.2 307.2,297.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="326.4,283.2 345.6,273.6 345.6,297.6 326.4,307.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="326.4,264 345.6,273.6 326.4,283.2 307.2,273.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-639.8,308.8 -633.8,308.8 -633.8,296.8 -639.8,296.8" fill="#2E3A34"/><polygon points="-656,284.8 -636.8,294.4 -636.8,318.4 -656,308.8" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-636.8,294.4 -617.6,284.8 -617.6,308.8 -636.8,318.4" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-636.8,275.2 -617.6,284.8 -636.8,294.4 -656,284.8" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-566.2,313.6 -560.2,313.6 -560.2,301.6 -566.2,301.6" fill="#2E3A34"/><polygon points="-582.4,289.6 -563.2,299.2 -563.2,323.2 -582.4,313.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-563.2,299.2 -544,289.6 -544,313.6 -563.2,323.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-563.2,280 -544,289.6 -563.2,299.2 -582.4,289.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="281.8,321.6 287.8,321.6 287.8,309.6 281.8,309.6" fill="#2E3A34"/><polygon points="265.6,297.6 284.8,307.2 284.8,331.2 265.6,321.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="284.8,307.2 304,297.6 304,321.6 284.8,331.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="284.8,288 304,297.6 284.8,307.2 265.6,297.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="486.6,321.6 492.6,321.6 492.6,309.6 486.6,309.6" fill="#2E3A34"/><polygon points="470.4,297.6 489.6,307.2 489.6,331.2 470.4,321.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="489.6,307.2 508.8,297.6 508.8,321.6 489.6,331.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="489.6,288 508.8,297.6 489.6,307.2 470.4,297.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-348.6,326.4 -342.6,326.4 -342.6,314.4 -348.6,314.4" fill="#2E3A34"/><polygon points="-364.8,302.4 -345.6,312 -345.6,336 -364.8,326.4" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-345.6,312 -326.4,302.4 -326.4,326.4 -345.6,336" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-345.6,292.8 -326.4,302.4 -345.6,312 -364.8,302.4" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="560.2,326.4 566.2,326.4 566.2,314.4 560.2,314.4" fill="#2E3A34"/><polygon points="544,302.4 563.2,312 563.2,336 544,326.4" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="563.2,312 582.4,302.4 582.4,326.4 563.2,336" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="563.2,292.8 582.4,302.4 563.2,312 544,302.4" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-396.6,353.6 -390.6,353.6 -390.6,341.6 -396.6,341.6" fill="#2E3A34"/><polygon points="-412.8,329.6 -393.6,339.2 -393.6,363.2 -412.8,353.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-393.6,339.2 -374.4,329.6 -374.4,353.6 -393.6,363.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-393.6,320 -374.4,329.6 -393.6,339.2 -412.8,329.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-323,358.4 -317,358.4 -317,346.4 -323,346.4" fill="#2E3A34"/><polygon points="-339.2,334.4 -320,344 -320,368 -339.2,358.4" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-320,344 -300.8,334.4 -300.8,358.4 -320,368" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-320,324.8 -300.8,334.4 -320,344 -339.2,334.4" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-476.6,371.2 -470.6,371.2 -470.6,359.2 -476.6,359.2" fill="#2E3A34"/><polygon points="-492.8,347.2 -473.6,356.8 -473.6,380.8 -492.8,371.2" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-473.6,356.8 -454.4,347.2 -454.4,371.2 -473.6,380.8" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-473.6,337.6 -454.4,347.2 -473.6,356.8 -492.8,347.2" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-364.6,382.4 -358.6,382.4 -358.6,370.4 -364.6,370.4" fill="#2E3A34"/><polygon points="-380.8,358.4 -361.6,368 -361.6,392 -380.8,382.4" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-361.6,368 -342.4,358.4 -342.4,382.4 -361.6,392" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-361.6,348.8 -342.4,358.4 -361.6,368 -380.8,358.4" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-518.2,395.2 -512.2,395.2 -512.2,383.2 -518.2,383.2" fill="#2E3A34"/><polygon points="-534.4,371.2 -515.2,380.8 -515.2,404.8 -534.4,395.2" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-515.2,380.8 -496,371.2 -496,395.2 -515.2,404.8" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-515.2,361.6 -496,371.2 -515.2,380.8 -534.4,371.2" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-451,403.2 -445,403.2 -445,391.2 -451,391.2" fill="#2E3A34"/><polygon points="-467.2,379.2 -448,388.8 -448,412.8 -467.2,403.2" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-448,388.8 -428.8,379.2 -428.8,403.2 -448,412.8" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-448,369.6 -428.8,379.2 -448,388.8 -467.2,379.2" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><g class="bld" id="b-adversarial"><polygon points="-339.2,378.4 -230.4,432.8 -230.4,524.8 -339.2,470.4" fill="#4A514D" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-230.4,432.8 -121.6,378.4 -121.6,470.4 -230.4,524.8" fill="#262A28" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-323.84,416.08 -311.04,422.48 -311.04,438.48 -323.84,432.08" fill="#767A78"/><polygon points="-302.08,426.96 -289.28,433.36 -289.28,449.36 -302.08,442.96" fill="#767A78"/><polygon points="-280.32,437.84 -267.52,444.24 -267.52,460.24 -280.32,453.84" fill="#DFC084"/><polygon points="-258.56,448.72 -245.76,455.12 -245.76,471.12 -258.56,464.72" fill="#767A78"/><polygon points="-215.04,449.12 -202.24,442.72 -202.24,458.72 -215.04,465.12" fill="#BCA173"/><polygon points="-193.28,438.24 -180.48,431.84 -180.48,447.84 -193.28,454.24" fill="#5C605E"/><polygon points="-171.52,427.36 -158.72,420.96 -158.72,436.96 -171.52,443.36" fill="#5C605E"/><polygon points="-149.76,416.48 -136.96,410.08 -136.96,426.08 -149.76,432.48" fill="#BCA173"/><polygon points="-215.04,479.12 -202.24,472.72 -202.24,488.72 -215.04,495.12" fill="#5C605E"/><polygon points="-193.28,468.24 -180.48,461.84 -180.48,477.84 -193.28,484.24" fill="#5C605E"/><polygon points="-171.52,457.36 -158.72,450.96 -158.72,466.96 -171.52,473.36" fill="#BCA173"/><polygon points="-149.76,446.48 -136.96,440.08 -136.96,456.08 -149.76,462.48" fill="#5C605E"/><polygon points="-230.4,324 -121.6,378.4 -230.4,432.8 -339.2,378.4" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><text class="sign" transform="matrix(1,0.5,0,1,-328.96,462.52)" font-size="11.61" textLength="95" lengthAdjust="spacingAndGlyphs" fill="#F7F3E6">ADVERSARIAL</text></g><g class="bld" id="b-highest"><polygon points="-108.8,318.4 0,372.8 0,524.8 -108.8,470.4" fill="#C08D7B" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="0,372.8 108.8,318.4 108.8,470.4 0,524.8" fill="#7E5A4C" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-93.44,356.08 -80.64,362.48 -80.64,378.48 -93.44,372.08" fill="#CDAEA3"/><polygon points="-71.68,366.96 -58.88,373.36 -58.88,389.36 -71.68,382.96" fill="#CDAEA3"/><polygon points="-49.92,377.84 -37.12,384.24 -37.12,400.24 -49.92,393.84" fill="#CDAEA3"/><polygon points="-28.16,388.72 -15.36,395.12 -15.36,411.12 -28.16,404.72" fill="#CDAEA3"/><polygon points="-93.44,386.08 -80.64,392.48 -80.64,408.48 -93.44,402.08" fill="#CDAEA3"/><polygon points="-71.68,396.96 -58.88,403.36 -58.88,419.36 -71.68,412.96" fill="#DFC084"/><polygon points="-49.92,407.84 -37.12,414.24 -37.12,430.24 -49.92,423.84" fill="#CDAEA3"/><polygon points="-28.16,418.72 -15.36,425.12 -15.36,441.12 -28.16,434.72" fill="#CDAEA3"/><polygon points="-93.44,416.08 -80.64,422.48 -80.64,438.48 -93.44,432.08" fill="#CDAEA3"/><polygon points="-71.68,426.96 -58.88,433.36 -58.88,449.36 -71.68,442.96" fill="#CDAEA3"/><polygon points="-49.92,437.84 -37.12,444.24 -37.12,460.24 -49.92,453.84" fill="#CDAEA3"/><polygon points="-28.16,448.72 -15.36,455.12 -15.36,471.12 -28.16,464.72" fill="#CDAEA3"/><polygon points="15.36,389.12 28.16,382.72 28.16,398.72 15.36,405.12" fill="#AB8D84"/><polygon points="37.12,378.24 49.92,371.84 49.92,387.84 37.12,394.24" fill="#AB8D84"/><polygon points="58.88,367.36 71.68,360.96 71.68,376.96 58.88,383.36" fill="#AB8D84"/><polygon points="80.64,356.48 93.44,350.08 93.44,366.08 80.64,372.48" fill="#AB8D84"/><polygon points="15.36,419.12 28.16,412.72 28.16,428.72 15.36,435.12" fill="#AB8D84"/><polygon points="37.12,408.24 49.92,401.84 49.92,417.84 37.12,424.24" fill="#AB8D84"/><polygon points="58.88,397.36 71.68,390.96 71.68,406.96 58.88,413.36" fill="#AB8D84"/><polygon points="80.64,386.48 93.44,380.08 93.44,396.08 80.64,402.48" fill="#AB8D84"/><polygon points="15.36,449.12 28.16,442.72 28.16,458.72 15.36,465.12" fill="#AB8D84"/><polygon points="37.12,438.24 49.92,431.84 49.92,447.84 37.12,454.24" fill="#AB8D84"/><polygon points="58.88,427.36 71.68,420.96 71.68,436.96 58.88,443.36" fill="#AB8D84"/><polygon points="80.64,416.48 93.44,410.08 93.44,426.08 80.64,432.48" fill="#AB8D84"/><polygon points="15.36,479.12 28.16,472.72 28.16,488.72 15.36,495.12" fill="#BCA173"/><polygon points="37.12,468.24 49.92,461.84 49.92,477.84 37.12,484.24" fill="#AB8D84"/><polygon points="58.88,457.36 71.68,450.96 71.68,466.96 58.88,473.36" fill="#BCA173"/><polygon points="80.64,446.48 93.44,440.08 93.44,456.08 80.64,462.48" fill="#AB8D84"/><polygon points="0,264 108.8,318.4 0,372.8 -108.8,318.4" fill="#E9E4D5" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><text class="sign" transform="matrix(1,0.5,0,1,-98.56,462.52)" font-size="11.82" textLength="95" lengthAdjust="spacingAndGlyphs" fill="#14191A">HIGHEST USE</text></g><g class="bld" id="b-residual"><polygon points="121.6,352.4 230.4,406.8 230.4,524.8 121.6,470.4" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="230.4,406.8 339.2,352.4 339.2,470.4 230.4,524.8" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="136.96,388.08 149.76,394.48 149.76,410.48 136.96,404.08" fill="#97AB9C"/><polygon points="158.72,398.96 171.52,405.36 171.52,421.36 158.72,414.96" fill="#97AB9C"/><polygon points="180.48,409.84 193.28,416.24 193.28,432.24 180.48,425.84" fill="#97AB9C"/><polygon points="202.24,420.72 215.04,427.12 215.04,443.12 202.24,436.72" fill="#97AB9C"/><polygon points="136.96,418.08 149.76,424.48 149.76,440.48 136.96,434.08" fill="#97AB9C"/><polygon points="158.72,428.96 171.52,435.36 171.52,451.36 158.72,444.96" fill="#97AB9C"/><polygon points="180.48,439.84 193.28,446.24 193.28,462.24 180.48,455.84" fill="#97AB9C"/><polygon points="202.24,450.72 215.04,457.12 215.04,473.12 202.24,466.72" fill="#97AB9C"/><polygon points="245.76,421.12 258.56,414.72 258.56,430.72 245.76,437.12" fill="#7C8D85"/><polygon points="267.52,410.24 280.32,403.84 280.32,419.84 267.52,426.24" fill="#7C8D85"/><polygon points="289.28,399.36 302.08,392.96 302.08,408.96 289.28,415.36" fill="#BCA173"/><polygon points="311.04,388.48 323.84,382.08 323.84,398.08 311.04,404.48" fill="#7C8D85"/><polygon points="245.76,451.12 258.56,444.72 258.56,460.72 245.76,467.12" fill="#7C8D85"/><polygon points="267.52,440.24 280.32,433.84 280.32,449.84 267.52,456.24" fill="#7C8D85"/><polygon points="289.28,429.36 302.08,422.96 302.08,438.96 289.28,445.36" fill="#7C8D85"/><polygon points="311.04,418.48 323.84,412.08 323.84,428.08 311.04,434.48" fill="#BCA173"/><polygon points="245.76,481.12 258.56,474.72 258.56,490.72 245.76,497.12" fill="#7C8D85"/><polygon points="267.52,470.24 280.32,463.84 280.32,479.84 267.52,486.24" fill="#7C8D85"/><polygon points="289.28,459.36 302.08,452.96 302.08,468.96 289.28,475.36" fill="#7C8D85"/><polygon points="311.04,448.48 323.84,442.08 323.84,458.08 311.04,464.48" fill="#7C8D85"/><polygon points="230.4,298 339.2,352.4 230.4,406.8 121.6,352.4" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><text class="sign" transform="matrix(1,0.5,0,1,131.84,462.52)" font-size="13.95" textLength="83.2" lengthAdjust="spacingAndGlyphs" fill="#14191A">RESIDUAL</text></g><polygon points="656.2,441.6 662.2,441.6 662.2,429.6 656.2,429.6" fill="#2E3A34"/><polygon points="640,417.6 659.2,427.2 659.2,451.2 640,441.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="659.2,427.2 678.4,417.6 678.4,441.6 659.2,451.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="659.2,408 678.4,417.6 659.2,427.2 640,417.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-425.4,457.6 -419.4,457.6 -419.4,445.6 -425.4,445.6" fill="#2E3A34"/><polygon points="-441.6,433.6 -422.4,443.2 -422.4,467.2 -441.6,457.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-422.4,443.2 -403.2,433.6 -403.2,457.6 -422.4,467.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-422.4,424 -403.2,433.6 -422.4,443.2 -441.6,433.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><g class="bld" id="b-terrace"><polygon points="428.8,404.4 512,446 512,512 428.8,470.4" fill="#EFEBDB" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="512,446 582.4,410.8 582.4,476.8 512,512" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="442.24,437.12 455.04,443.52 455.04,459.52 442.24,453.12" fill="#DFC084"/><polygon points="464,448 476.8,454.4 476.8,470.4 464,464" fill="#605E57"/><polygon points="485.76,458.88 498.56,465.28 498.56,481.28 485.76,474.88" fill="#605E57"/><polygon points="529.92,463.04 542.72,456.64 542.72,472.64 529.92,479.04" fill="#4B4944"/><polygon points="551.68,452.16 564.48,445.76 564.48,461.76 551.68,468.16" fill="#4B4944"/><polygon points="499.2,369.2 582.4,410.8 547.2,402.4 464,360.8" fill="#8A6154" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="512,446 582.4,410.8 547.2,402.4" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="428.8,404.4 512,446 547.2,402.4 464,360.8" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="358.4,439.6 441.6,481.2 441.6,547.2 358.4,505.6" fill="#EFEBDB" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="441.6,481.2 512,446 512,512 441.6,547.2" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="371.84,472.32 384.64,478.72 384.64,494.72 371.84,488.32" fill="#605E57"/><polygon points="393.6,483.2 406.4,489.6 406.4,505.6 393.6,499.2" fill="#605E57"/><polygon points="415.36,494.08 428.16,500.48 428.16,516.48 415.36,510.08" fill="#605E57"/><polygon points="459.52,498.24 472.32,491.84 472.32,507.84 459.52,514.24" fill="#4B4944"/><polygon points="481.28,487.36 494.08,480.96 494.08,496.96 481.28,503.36" fill="#4B4944"/><polygon points="428.8,404.4 512,446 476.8,437.6 393.6,396" fill="#8A6154" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="441.6,481.2 512,446 476.8,437.6" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="358.4,439.6 441.6,481.2 476.8,437.6 393.6,396" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="288,474.8 371.2,516.4 371.2,582.4 288,540.8" fill="#EFEBDB" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="371.2,516.4 441.6,481.2 441.6,547.2 371.2,582.4" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="389.12,533.44 401.92,527.04 401.92,543.04 389.12,549.44" fill="#4B4944"/><polygon points="410.88,522.56 423.68,516.16 423.68,532.16 410.88,538.56" fill="#4B4944"/><polygon points="358.4,439.6 441.6,481.2 406.4,472.8 323.2,431.2" fill="#8A6154" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="371.2,516.4 441.6,481.2 406.4,472.8" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="288,474.8 371.2,516.4 406.4,472.8 323.2,431.2" fill="#C4897A" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><text class="sign" transform="matrix(1,0.5,0,1,298.24,532.92)" font-size="13.49" textLength="70.12" lengthAdjust="spacingAndGlyphs" fill="#14191A">PLATE 01</text></g><polygon points="553.8,505.6 559.8,505.6 559.8,493.6 553.8,493.6" fill="#2E3A34"/><polygon points="537.6,481.6 556.8,491.2 556.8,515.2 537.6,505.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="556.8,491.2 576,481.6 576,505.6 556.8,515.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="556.8,472 576,481.6 556.8,491.2 537.6,481.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-291,512 -285,512 -285,500 -291,500" fill="#2E3A34"/><polygon points="-307.2,488 -288,497.6 -288,521.6 -307.2,512" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-288,497.6 -268.8,488 -268.8,512 -288,521.6" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-288,478.4 -268.8,488 -288,497.6 -307.2,488" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-67,528 -61,528 -61,516 -67,516" fill="#2E3A34"/><polygon points="-83.2,504 -64,513.6 -64,537.6 -83.2,528" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-64,513.6 -44.8,504 -44.8,528 -64,537.6" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-64,494.4 -44.8,504 -64,513.6 -83.2,504" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="176.2,553.6 182.2,553.6 182.2,541.6 176.2,541.6" fill="#2E3A34"/><polygon points="160,529.6 179.2,539.2 179.2,563.2 160,553.6" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="179.2,539.2 198.4,529.6 198.4,553.6 179.2,563.2" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="179.2,520 198.4,529.6 179.2,539.2 160,529.6" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-214.2,556.8 -208.2,556.8 -208.2,544.8 -214.2,544.8" fill="#2E3A34"/><polygon points="-230.4,532.8 -211.2,542.4 -211.2,566.4 -230.4,556.8" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-211.2,542.4 -192,532.8 -192,556.8 -211.2,566.4" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="-211.2,523.2 -192,532.8 -211.2,542.4 -230.4,532.8" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="99.4,588.8 105.4,588.8 105.4,576.8 99.4,576.8" fill="#2E3A34"/><polygon points="83.2,564.8 102.4,574.4 102.4,598.4 83.2,588.8" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="102.4,574.4 121.6,564.8 121.6,588.8 102.4,598.4" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="102.4,555.2 121.6,564.8 102.4,574.4 83.2,564.8" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="51.4,616 57.4,616 57.4,604 51.4,604" fill="#2E3A34"/><polygon points="35.2,592 54.4,601.6 54.4,625.6 35.2,616" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="54.4,601.6 73.6,592 73.6,616 54.4,625.6" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="54.4,582.4 73.6,592 54.4,601.6 35.2,592" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="125,620.8 131,620.8 131,608.8 125,608.8" fill="#2E3A34"/><polygon points="108.8,596.8 128,606.4 128,630.4 108.8,620.8" fill="#7E9789" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="128,606.4 147.2,596.8 147.2,620.8 128,630.4" fill="#4E6459" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="128,587.2 147.2,596.8 128,606.4 108.8,596.8" fill="#9AAD9F" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><g class="car car-a"><g transform="translate(-0,-4.1)"><polygon points="-19.2,-1.4 0,8.2 0,19.2 -19.2,9.6" fill="#C08D7B" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="0,8.2 19.2,-1.4 19.2,9.6 0,19.2" fill="#7E5A4C" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-11 19.2,-1.4 0,8.2 -19.2,-1.4" fill="#D0B3A9" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/></g></g><g class="car car-b"><g transform="translate(-0,-4.1)"><polygon points="-19.2,-1.4 0,8.2 0,19.2 -19.2,9.6" fill="#EFEBDB" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="0,8.2 19.2,-1.4 19.2,9.6 0,19.2" fill="#9C998E" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-11 19.2,-1.4 0,8.2 -19.2,-1.4" fill="#F1EDE0" stroke="#33413A" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"/></g></g></svg>
+    <button class="pin" type="button" data-key="statutory" data-sheet="appraisal" data-row="01" data-x="940.8" data-y="331.6" style="left:832px;top:277.2px;width:217.6px;height:248.8px" aria-label="STATUTORY - lens 01 of the guesstimate"><span class="knob" style="left:108.8px;top:54.4px"></span></button><button class="pin" type="button" data-key="comparable" data-sheet="appraisal" data-row="02" data-x="1171.2" data-y="367.6" style="left:1062.4px;top:313.2px;width:217.6px;height:212.8px" aria-label="COMPARABLE - lens 02 of the guesstimate"><span class="knob" style="left:108.8px;top:54.4px"></span></button><button class="pin" type="button" data-key="residual" data-sheet="appraisal" data-row="03" data-x="1030.4" data-y="622.4" style="left:921.6px;top:568px;width:217.6px;height:226.8px" aria-label="RESIDUAL - lens 03 of the guesstimate"><span class="knob" style="left:108.8px;top:54.4px"></span></button><button class="pin" type="button" data-key="highest" data-sheet="appraisal" data-row="04" data-x="800" data-y="588.4" style="left:691.2px;top:534px;width:217.6px;height:260.8px" aria-label="HIGHEST AND BEST - lens 04 of the guesstimate"><span class="knob" style="left:108.8px;top:54.4px"></span></button><button class="pin" type="button" data-key="adversarial" data-sheet="appraisal" data-row="05" data-x="569.6" data-y="648.4" style="left:460.8px;top:594px;width:217.6px;height:200.8px" aria-label="ADVERSARIAL - lens 05 of the guesstimate"><span class="knob" style="left:108.8px;top:54.4px"></span></button><button class="pin" type="button" data-key="hestia" data-sheet="hestia" data-x="710.4" data-y="175.6" style="left:601.6px;top:83.6px;width:217.6px;height:442.4px" aria-label="HESTIA tower - the property value and strategy agent"><span class="knob" style="left:108.8px;top:92px"></span></button><button class="pin" type="button" data-key="desk" data-sheet="desk" data-x="480" data-y="339.6" style="left:371.2px;top:285.2px;width:217.6px;height:240.8px" aria-label="THE DESK - the corner office"><span class="knob" style="left:108.8px;top:54.4px"></span></button><button class="pin" type="button" data-key="terrace" data-sheet="plate" data-x="1235.2" data-y="712.8" style="left:1088px;top:613.2px;width:294.4px;height:239.2px" aria-label="PLATE 01 - the terrace, guesstimated"><span class="knob" style="left:147.2px;top:99.6px"></span></button>
+  </div>
+
+  <div class="titlecard" id="titlecard">
+    <div class="tc-in">
+      <p class="eyebrow">WITCHCRAFT AI PRESENTS &nbsp;·&nbsp; NEW SOUTH WALES</p>
+      <h1>
+        <span class="mt-l"><span class="mt-w">HESTIA'S PROPERTY</span></span>
+        <span class="mt-l"><span class="mt-w">VALUE<i>.</i> GUESSTIMATOR</span></span>
+      </h1>
+      <div class="rule-sole"></div>
+      <p class="promise">Aspiring to be Australia's No.1 highest accuracy, best priced, quickest time, coolest and awesomest complex commercial and residential property, real estate and development value and strategy guesstimator ever existed in the history of Australia. Like, legendarily epic.</p>
+      <p class="lede">What, my mom said aim high. If I miss, I go to the moon or something.</p>
+      <a class="cta" href="#desk" data-sheet="desk" data-key="desk">THE DESK →</a>
+      <p class="hint">Drag to pan · select a building to enter</p>
+    </div>
+  </div>
+
+  <div class="compass" aria-hidden="true">
+    <div class="cbox">
+      <svg viewBox="-820 -300 1800 1320">
+        <polygon points="51.2,-115.2 947.2,332.8 128,742.4 -768,294.4" fill="#E6E0C8" stroke="#33413A" stroke-width="14"/>
+        <circle cx="140.8" cy="61.6" r="9" class="mdot "/><circle cx="371.2" cy="97.6" r="9" class="mdot "/><circle cx="230.4" cy="352.4" r="9" class="mdot "/><circle cx="0" cy="318.4" r="9" class="mdot "/><circle cx="-230.4" cy="378.4" r="9" class="mdot "/><circle cx="-320" cy="69.6" r="9" class="mdot "/><circle cx="435.2" cy="442.8" r="9" class="mdot "/><circle cx="-89.6" cy="-94.4" r="9" class="mdot mdot-tall"/>
+        <rect id="viewbox" x="0" y="0" width="600" height="440"/>
+        <text x="90" y="-70" fill="#33413A" font-size="118" font-family="Prata,Georgia,serif" text-anchor="middle">N</text>
+        <text x="90" y="880" fill="#33413A" font-size="118" font-family="Prata,Georgia,serif" text-anchor="middle">S</text>
+        <text x="-740" y="430" fill="#33413A" font-size="118" font-family="Prata,Georgia,serif" text-anchor="end">W</text>
+        <text x="915" y="430" fill="#33413A" font-size="118" font-family="Prata,Georgia,serif" text-anchor="start">E</text>
+      </svg>
+      <p class="clabel">The board · your position</p>
+    </div>
+  </div>
+
+  <footer class="footbar">
+    <div class="fline">
+      <a href="mailto:hecate@witch.codes">HECATE@WITCH.CODES</a>
+      <a href="https://witchcraft.business">WITCHCRAFT.BUSINESS</a>
+      <a href="#terms" data-sheet="terms" data-key="terms">TERMS &amp; REFUNDS</a>
+      <span class="label">SYDNEY</span>
+      <span class="label">BY APPOINTMENT</span>
+      <a href="/terms/">TERMS</a>
+      <a href="/privacy/">PRIVACY</a>
+      <a href="/refunds/">REFUNDS</a>
+    </div>
+    <p class="legal">© WITCHCRAFT AI · WITCHCRAFT AI · MMXXVI - NOT A FORMAL VALUATION. AN AI-DEBATED OPINION ESTIMATE. INDEPENDENT ADVICE RECOMMENDED.</p>
+  <div class="cisfoot" style="margin:56px 0 0;padding:22px 0 10px;border-top:1px solid rgba(10,10,10,.25);font-family:Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.14em;line-height:2.1;color:rgba(10,10,10,.72);text-transform:uppercase;"><a href="https://witch.codes" style="display:block;margin:0 0 16px;"><img src="/assets/foot-art.jpg" alt="WITCH.CODES" style="width:100%;max-width:220px;height:auto;display:block;border:1px solid rgba(10,10,10,.22);"></a><a href="https://witch.codes" style="display:block;margin:0 0 16px;"><img src="/assets/foot-art.jpg" alt="WITCH.CODES" style="width:100%;max-width:220px;height:auto;display:block;border:1px solid rgba(10,10,10,.22);"></a>BUTTERFLY KINGDOM NSW PTY LTD TRADING AS WITCHCRAFT AI &middot; ABN 11 691 050 969 &middot; ACN 691 050 969 &middot; G/17 THE SEVEN WAYS ROCKDALE NSW 2216<br><a href="https://witch.codes" style="color:inherit;">WITCH.CODES</a> &middot; <a href="https://witchcraft.business" style="color:inherit;">WITCHCRAFT.BUSINESS</a> &middot; <a href="https://witchcraft.living" style="color:inherit;">WITCHCRAFT.LIVING</a> &middot; <a href="https://witchcraft.homes" style="color:inherit;">WITCHCRAFT.HOMES</a> &middot; <a href="https://witchcraft.expert" style="color:inherit;">WITCHCRAFT.EXPERT</a> &middot; <a href="https://witchcraft.boutique" style="color:inherit;">WITCHCRAFT.BOUTIQUE</a> &middot; <a href="https://witchcraft.delivery" style="color:inherit;">WITCHCRAFT.DELIVERY</a> &middot; <a href="https://witchcraft.pics" style="color:inherit;">WITCHCRAFT.PICS</a> &middot; <a href="https://witchcraft.video" style="color:inherit;">WITCHCRAFT.VIDEO</a><br><a href="mailto:hecate@witch.codes" style="color:inherit;">HECATE@WITCH.CODES</a></div>
+</footer>
+</div>
+
+<div class="sheets">
+
+  <article class="sheet" id="appraisal" aria-labelledby="appraisal-h" role="region">
+    <div class="sheet-head">
+      <div><span class="tag">THE AI-GUESSTIMATE</span></div>
+      <button class="closer" type="button" data-close>CLOSE ×</button>
+    </div>
+    <h2 id="appraisal-h">Athena QUANTITATIVE 5-DIMENSIONAL Property Value Guesstimator <span style="font-weight:400;font-size:.62em;letter-spacing:.02em;color:var(--dim)">(in other words, WITCHCRAFT™)</span></h2>
+    <p class="lede">AI-assisted, AI-led, AI-debated, AI-improved, AI-told-me-just-go-away-don't-bother-them quantitative stochastic quantum extrachronospatial value guesstimate of any property address you'd like.</p>
+    <div class="lens" id="lens-01"><span class="n">01</span><div><h3>STATUTORY</h3><p>Zoning, height, FSR, heritage. What the instruments permit, cited to the clause.</p></div><span class="meta">LENS →</span></div>
+    <div class="lens" id="lens-02"><span class="n">02</span><div><h3>COMPARABLE</h3><p>Sales that genuinely compare. Adjusted in the open, outliers named.</p></div><span class="meta">LENS →</span></div>
+    <div class="lens" id="lens-03"><span class="n">03</span><div><h3>RESIDUAL</h3><p>Land value backed out of the feasible scheme. Every input shown.</p></div><span class="meta">LENS →</span></div>
+    <div class="lens" id="lens-04"><span class="n">04</span><div><h3>HIGHEST AND BEST</h3><p>What the site wants to be, not what it is.</p></div><span class="meta">LENS →</span></div>
+    <div class="lens" id="lens-05"><span class="n">05</span><div><h3>ADVERSARIAL</h3><p>The guesstimate argued against itself before it is argued for.</p></div><span class="meta">LENS →</span></div>
+    <a class="cta" href="https://guesstimator.witchcraft.homes" style="margin-top:26px">GET A GUESSTIMATE — FROM $22 →</a>
+  </article>
+
+  <article class="sheet" id="hestia" aria-labelledby="hestia-h" role="region">
+    <div class="sheet-head">
+      <div><span class="tag">HESTIA</span></div>
+      <button class="closer" type="button" data-close>CLOSE ×</button>
+    </div>
+    <h2 id="hestia-h">The guesstimator that argues with the market.</h2>
+    <p class="lede">The desk runs on Hestia, the specialised property value and strategy agent: open-ended modelling under uncertainty, complex property, deal analysis. Six frontier models debate every address down to one number, dissenters named. She is available as an endpoint to firms that want the second opinion without the second firm.</p>
+    <a class="cta" href="https://witch.codes">THE ENDPOINT →</a>
+  </article>
+
+  <article class="sheet" id="desk" aria-labelledby="desk-h" role="region">
+    <div class="sheet-head">
+      <div><span class="tag">THE DESK</span></div>
+      <button class="closer" type="button" data-close>CLOSE ×</button>
+    </div>
+    <h2 id="desk-h" class="pull">Bring an address. Leave with the figure.</h2>
+    <p class="lede">One guesstimate: six frontier AI models debate your address across fifteen methods, five lenses and a 4D site model, down to a single figure with dissenters named. About an hour, start to finish. Not a formal valuation - an AI-debated opinion estimate. Independent advice recommended for anything serious.</p>
+    <a class="cta" href="https://guesstimator.witchcraft.homes">OPEN THE GUESSTIMATOR →</a>
+    <div class="lens" style="margin-top:26px"><span class="n">01</span><div><h3>BRING YOUR OWN API KEYS</h3><p>$20 fee for me only + GST per guesstimate.</p><p style="font-size:12.5px;color:var(--dim);margin-top:6px">*Pay-as-you-go tokens run about $67 per guesstimate if you bring your own.</p></div><span class="meta">BYO →</span></div>
+    <div class="lens"><span class="n">02</span><div><h3>USE MINE - $40 ALL-IN</h3><p>$40 per guesstimate, everything included. My fee and all.</p><p style="font-size:12.5px;color:var(--dim);margin-top:6px">*I buy 15-20 billion API tokens a month in bulk. I get stupid cheap bulk pricing. And $300,000USD in grants, LOL.</p></div><span class="meta">EASY →</span></div>
+    <div class="lens"><span class="n">03</span><div><h3>FIRST ADDRESS 75% OFF</h3><p>Per Google account. One guesstimate at 75% off. Code: FIRST75-V2 at checkout.</p></div><span class="meta">BONUS →</span></div>
+    <p class="hint" style="margin-top:18px">BY PURCHASING YOU AGREE TO OUR
+    <a href="/terms/">TERMS</a>, <a href="/privacy/">PRIVACY COLLECTION NOTICE</a> AND
+    <a href="/refunds/">REFUND POLICY</a>.</p>
+    <a class="cta" data-stripe="byo" href="https://buy.stripe.com/fZubIU8H20i5eDAeoT5os03">PAY $22 - BYO KEYS GUESSTIMATE →</a>
+    <a class="cta" data-stripe="mine" href="https://buy.stripe.com/8x24gse1mgh3bro4Oj5os04" style="margin-left:10px">PAY $40 - USE MY KEYS →</a>
+    <form id="p2-form" class="cta-form" style="display:inline;margin-left:10px" action="#">
+      <input type="email" name="email" placeholder="email" required style="padding:8px 12px;font:inherit;background:#0a0a0a;color:#fbf9f1;border:1px solid var(--rule);width:180px">
+      <input type="text" name="address" placeholder="address" required style="padding:8px 12px;font:inherit;background:#0a0a0a;color:#fbf9f1;border:1px solid var(--rule);width:220px">
+      <label style="font-size:11px;margin-left:8px;color:var(--muted);cursor:pointer"><input type="checkbox" name="terms_accepted" required> terms</label>
+      <button type="submit" class="cta" style="padding:8px 20px;background:#c5a572;color:#0a0a0a;border:none;font:inherit;cursor:pointer">PAY $149 - P2 CORPORATE DESK SWEEP →</button>
+    </form>
+    <div style="margin-top:30px;border-top:1px solid var(--rule);padding-top:24px">
+      <p class="eyebrow">NEW CONSULTANCY SERVICE</p>
+      <h3 style="font-family:var(--disp);font-weight:400;font-size:19px;line-height:1.3;margin-top:14px">AI Grants Speedrunning Consulting</h3>
+      <p class="lede" style="margin-top:12px">$350K - $2 MILLION in AI grants for your company. Fee: from the net benefit, I keep 20% of all the things I get for you. You keep 80%.</p>
+      <a class="cta" href="mailto:hecate@witch.codes?subject=AI%20Grants%20Brief" style="margin-top:18px">OPEN THE BRIEF &rarr;</a>
+    </div>
+  </article>
+
+  <article class="sheet" id="plate" aria-labelledby="plate-h" role="region">
+    <div class="sheet-head">
+      <div><span class="tag">PLATE 01</span></div>
+      <button class="closer" type="button" data-close>CLOSE ×</button>
+    </div>
+    <h2 id="plate-h">The terrace, modelled and guesstimated.</h2>
+    <figure class="plate" data-prompt="A Victorian terrace house facade at night, single streetlight, deep shadows, symmetrical framing broken by one lit window, black and white, 35mm film grain, architectural editorial photography"><svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M80 348 L520 348"/><rect x="170" y="110" width="260" height="238"/><path d="M150 110 L450 110"/><rect x="200" y="150" width="52" height="76"/><rect x="274" y="150" width="52" height="76"/><rect x="348" y="150" width="52" height="76"/><rect x="262" y="268" width="76" height="80"/><path d="M170 250 L430 250" stroke-dasharray="2 6"/></svg><figcaption>PLATE 01 · THE TERRACE, GUESSTIMATED</figcaption></figure>
+  </article>
+
+  <article class="sheet" id="terms" aria-labelledby="terms-h" role="region">
+    <div class="sheet-head">
+      <div><span class="tag">TERMS OF SALE</span></div>
+      <button class="closer" type="button" data-close>CLOSE ×</button>
+    </div>
+    <h2 id="terms-h">Plain terms. Refund first, argue later.</h2>
+    <p class="lede">Butterfly Kingdom NSW Pty Ltd trading as Witchcraft AI (ABN 11 691 050 969) sells one AI-debated property value and strategy guesstimate report per order. Not a formal valuation - an AI-debated opinion estimate. Independent advice recommended for anything serious.</p>
+    <div class="lens"><span class="n">01</span><div><h3>WHAT YOU GET</h3><p>One guesstimate report per order, run on the address you supply, delivered as a PDF to the email you give at checkout, usually within the hour and always within one business day. Double-check your email spelling - we re-send free on request.</p></div><span class="meta">DELIVERY</span></div>
+    <div class="lens"><span class="n">02</span><div><h3>REFUND FIRST</h3><p>Not delivered on time, the wrong address modelled, or the run failed on our side: full refund, no questions. Any other reason: email hecate@witch.codes with your order ID within 7 days and we refund first and argue later. One refund per order. We would rather have your word of mouth than your $22.</p></div><span class="meta">7 DAYS</span></div>
+    <div class="lens"><span class="n">03</span><div><h3>BEFORE ANY CARD DISPUTE</h3><p>Email us first - we answer within 2 business days and qualifying orders are refunded immediately. A chargeback costs your bank more than the order costs you; the fast path is faster for everyone. We keep order, delivery and acceptance records and may use them to answer a dispute. Nothing here excludes your rights under the Australian Consumer Law.</p></div><span class="meta">2 DAYS</span></div>
+    <div class="lens"><span class="n">04</span><div><h3>WHAT A GUESSTIMATE IS</h3><p>Six frontier AI models debate your address down to one figure. It is a stochastic model output: information, not financial, product or real-estate advice, and no guarantee the market agrees. Figures may differ from eventual sale, rent or development outcomes. Our services come with guarantees that cannot be excluded under the Australian Consumer Law.</p></div><span class="meta">THE MODEL</span></div>
+    <div class="lens"><span class="n">05</span><div><h3>YOUR DATA</h3><p>We keep the address you submit, your email and the order record to deliver, re-send, refund and answer disputes. We do not sell it. Ask any time and we delete your report copy.</p></div><span class="meta">PRIVACY</span></div>
+  </article>
+
+</div>
+
+<p class="doc-only">The board is unavailable. The desk is set out above and below in reading order.</p>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var docEl=document.documentElement;
+  var city=document.getElementById("city");
+  var board=document.getElementById("board");
+  if(!city||!board||!("PointerEvent" in window)) return;
+  docEl.className="js";
+  document.body.classList.remove("open");
+
+  var BW=1760, BH=1060, VBX=-800, VBY=-270;
+  var reduce=window.matchMedia("(prefers-reduced-motion: reduce)");
+  var tx=0, ty=0, pending=false, current=null;
+  var vbEl=document.getElementById("viewbox");
+  var pins=[].slice.call(document.querySelectorAll(".pin"));
+  var sheets=[].slice.call(document.querySelectorAll(".sheet"));
+
+  function clampAxis(v,view,size){
+    if(size<=view) return (view-size)/2;
+    return Math.max(view-size, Math.min(0, v));
+  }
+  /* --- the card must never cut a sign into a fragment --- */
+  var signs=[].slice.call(board.querySelectorAll("text.sign")).map(function(t){ return {el:t,box:null,op:1}; });
+  var cardBox=null, compass=document.querySelector(".compass"), FADE=30;
+  function measure(){
+    var c=city.getBoundingClientRect();
+    signs.forEach(function(s){
+      var r=s.el.getBoundingClientRect();
+      s.box={l:r.left-c.left-tx,r:r.right-c.left-tx,t:r.top-c.top-ty,b:r.bottom-c.top-ty};
+    });
+    var tc=document.querySelector(".tc-in");
+    if(tc){
+      var q=tc.getBoundingClientRect();
+      cardBox={l:q.left-c.left,r:q.right-c.left,t:q.top-c.top,b:q.bottom-c.top};
+    }
+  }
+  function veil(){
+    if(!cardBox) return;
+    var off=document.body.classList.contains("open");
+    for(var i=0;i<signs.length;i++){
+      var s=signs[i], op=1;
+      if(!off&&s.box){
+        var L=s.box.l+tx, R=s.box.r+tx, T=s.box.t+ty, B=s.box.b+ty;
+        if(B>cardBox.t&&T<cardBox.b&&R>cardBox.l){
+          op=(L-cardBox.r)/FADE;
+          op=op<0?0:(op>1?1:op);
+        }
+      }
+      if(op!==s.op){ s.op=op; s.el.style.opacity=(op===1?"":op.toFixed(3)); }
+    }
+  }
+  /* --- the minimap yields if the rail is too short for both cards --- */
+  function fit(){
+    if(!compass) return;
+    compass.style.display="";
+    var tc=document.querySelector(".tc-in"), fb=document.querySelector(".footbar");
+    if(!tc||!fb) return;
+    var r=compass.getBoundingClientRect();
+    if(r.top<tc.getBoundingClientRect().bottom+10||r.bottom>fb.getBoundingClientRect().top-10){
+      compass.style.display="none";
+    }
+  }
+  function relayout(){ fit(); measure(); schedule(); }
+
+  function paint(){
+    pending=false;
+    board.style.transform="translate3d("+tx.toFixed(1)+"px,"+ty.toFixed(1)+"px,0)";
+    if(vbEl){
+      vbEl.setAttribute("x",(-tx+VBX).toFixed(0));
+      vbEl.setAttribute("y",(-ty+VBY).toFixed(0));
+      vbEl.setAttribute("width",Math.min(city.clientWidth,BW).toFixed(0));
+      vbEl.setAttribute("height",Math.min(city.clientHeight,BH).toFixed(0));
+    }
+    veil();
+  }
+  function schedule(){ if(!pending){ pending=true; requestAnimationFrame(paint); } }
+  function setPos(x,y){
+    tx=clampAxis(x,city.clientWidth,BW);
+    ty=clampAxis(y,city.clientHeight,BH);
+    schedule();
+  }
+
+  /* --- glide the camera to a board point --- */
+  var glideTimer=null;
+  function glide(px,py,instant){
+    var vw=city.clientWidth, vh=city.clientHeight;
+    var inset=(current && vw>720)?Math.min(560,vw)*0.5:0;
+    var nx=clampAxis((vw-inset)/2-px, vw, BW);
+    var ny=clampAxis(vh/2-py, vh, BH);
+    if(instant||reduce.matches){
+      board.style.transition="none"; tx=nx; ty=ny; paint(); return;
+    }
+    board.style.transition="transform 600ms cubic-bezier(.22,.61,.36,1)";
+    tx=nx; ty=ny; paint();
+    clearTimeout(glideTimer);
+    glideTimer=setTimeout(function(){ board.style.transition="none"; },660);
+  }
+
+  /* --- drag to pan --- */
+  var dragging=false,sx=0,sy=0,ox=0,oy=0,travel=0,pid=null,held=false;
+  board.addEventListener("pointerdown",function(e){
+    if(e.button>0) return;
+    dragging=true; travel=0; held=false; pid=e.pointerId;
+    sx=e.clientX; sy=e.clientY; ox=tx; oy=ty;
+    board.style.transition="none";
+    city.classList.add("grabbing");
+  });
+  board.addEventListener("pointermove",function(e){
+    if(!dragging||e.pointerId!==pid) return;
+    var dx=e.clientX-sx, dy=e.clientY-sy;
+    var t=Math.abs(dx)+Math.abs(dy);
+    if(t>travel) travel=t;
+    /* capture only once this is a drag: capturing on pointerdown would
+       retarget the click and a building could never be selected */
+    if(!held&&travel>6){
+      try{ board.setPointerCapture(pid); held=true; }catch(err){}
+    }
+    setPos(ox+dx,oy+dy);
+  });
+  function release(e){
+    if(!dragging||(e&&e.pointerId!==pid)) return;
+    dragging=false;
+    if(held){ try{ board.releasePointerCapture(pid); }catch(err){} held=false; }
+    /* the click that follows this release still sees the travel and is
+       suppressed; a later keyboard activation must not be */
+    setTimeout(function(){ travel=0; },0);
+    city.classList.remove("grabbing");
+  }
+  board.addEventListener("pointerup",release);
+  board.addEventListener("pointercancel",release);
+  board.addEventListener("lostpointercapture",release);
+
+  /* --- sheets --- */
+  function closeSheet(){
+    if(!current) return;
+    var s=document.getElementById(current);
+    if(s) s.classList.remove("open");
+    current=null;
+    document.body.classList.remove("open");
+    schedule();
+    pins.forEach(function(p){ p.classList.remove("on"); });
+    [].slice.call(document.querySelectorAll(".lens.lit")).forEach(function(l){ l.classList.remove("lit"); });
+  }
+  function openSheet(id,row){
+    sheets.forEach(function(s){ s.classList.toggle("open", s.id===id); });
+    current=id;
+    document.body.classList.add("open");
+    schedule();
+    var s=document.getElementById(id);
+    if(!s) return;
+    s.scrollTop=0;
+    [].slice.call(s.querySelectorAll(".lens")).forEach(function(l){ l.classList.remove("lit"); });
+    if(row){
+      var lz=document.getElementById("lens-"+row);
+      if(lz){
+        lz.classList.add("lit");
+        var top=lz.offsetTop-s.offsetTop-90;
+        if(top>0) s.scrollTop=top;
+      }
+    }
+    var c=s.querySelector(".closer");
+    if(c) c.focus({preventScroll:true});
+  }
+
+  function goto(pin,open){
+    pins.forEach(function(p){ p.classList.toggle("on", p===pin); });
+    var g=document.getElementById("b-"+pin.getAttribute("data-key"));
+    [].slice.call(document.querySelectorAll(".bld.hot")).forEach(function(b){ b.classList.remove("hot"); });
+    if(g) g.classList.add("hot");
+    if(open) openSheet(pin.getAttribute("data-sheet"), pin.getAttribute("data-row")||"");
+    glide(parseFloat(pin.getAttribute("data-x")), parseFloat(pin.getAttribute("data-y")), false);
+  }
+
+  pins.forEach(function(p){
+    p.addEventListener("click",function(){
+      if(travel>6) return;
+      goto(p,true);
+    });
+    p.addEventListener("focus",function(){
+      var g=document.getElementById("b-"+p.getAttribute("data-key"));
+      [].slice.call(document.querySelectorAll(".bld.hot")).forEach(function(b){ b.classList.remove("hot"); });
+      if(g) g.classList.add("hot");
+      glide(parseFloat(p.getAttribute("data-x")), parseFloat(p.getAttribute("data-y")), false);
+    });
+    p.addEventListener("mouseenter",function(){
+      var g=document.getElementById("b-"+p.getAttribute("data-key"));
+      if(g) g.classList.add("hot");
+    });
+    p.addEventListener("mouseleave",function(){
+      var g=document.getElementById("b-"+p.getAttribute("data-key"));
+      if(g&&!p.classList.contains("on")) g.classList.remove("hot");
+    });
+  });
+
+  function pinFor(key){
+    for(var i=0;i<pins.length;i++){ if(pins[i].getAttribute("data-key")===key) return pins[i]; }
+    return null;
+  }
+  [].slice.call(document.querySelectorAll("[data-sheet][href]")).forEach(function(a){
+    a.addEventListener("click",function(e){
+      e.preventDefault();
+      var p=pinFor(a.getAttribute("data-key"));
+      if(p) goto(p,true); else openSheet(a.getAttribute("data-sheet"),"");
+    });
+  });
+  [].slice.call(document.querySelectorAll("[data-close]")).forEach(function(b){
+    b.addEventListener("click",function(){
+      var k=current;
+      closeSheet();
+      var p=null;
+      for(var i=0;i<pins.length;i++){ if(pins[i].getAttribute("data-sheet")===k){ p=pins[i]; break; } }
+      if(p) p.focus({preventScroll:true});
+    });
+  });
+  document.addEventListener("keydown",function(e){
+    if(e.key==="Escape"&&current){
+      var k=current; closeSheet();
+      for(var i=0;i<pins.length;i++){ if(pins[i].getAttribute("data-sheet")===k){ pins[i].focus({preventScroll:true}); break; } }
+    }
+  });
+
+  /* --- initial camera: Hestia, the tallest tower --- */
+  var start=pinFor("hestia");
+  if(start){
+    glide(parseFloat(start.getAttribute("data-x")), parseFloat(start.getAttribute("data-y")), true);
+  }else{ setPos(0,0); }
+  relayout();
+  if(document.fonts&&document.fonts.ready&&document.fonts.ready.then){
+    document.fonts.ready.then(function(){ relayout(); });
+  }
+
+  var rt=null;
+  window.addEventListener("resize",function(){
+    clearTimeout(rt);
+    rt=setTimeout(function(){ setPos(tx,ty); relayout(); },120);
+  });
+  document.addEventListener("visibilitychange",function(){
+    docEl.classList.toggle("paused",document.hidden);
+  });
+})();
+
+<script>
+(function(){
+  "use strict";
+  // Capture BYO/MINE clicks + P2 form submit -> POST to guesstimator order API
+  function postOrder(tier, email, address) {
+    return fetch("https://guesstimator.witchcraft.homes/api/order", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: email, address: address, tier: tier, terms_accepted: true, terms_version: "2026-09-04" })
+    }).then(function(r) { return r.json(); });
+  }
+  // BYO
+  document.querySelectorAll('a.cta[data-stripe="byo"]').forEach(function(a){
+    a.addEventListener("click", function(e){
+      e.preventDefault();
+      var email = prompt("Email for receipt:");
+      if(!email) return;
+      var address = prompt("Property address:");
+      if(!address) return;
+      postOrder("byo", email, address).then(function(d){
+        if(d && d.url) window.location.href = d.url;
+        else alert("Order capture failed: " + (d?.error || "unknown"));
+      }).catch(function(err){
+        alert("Order failed: " + err);
+      });
+    });
+  });
+  // MINE
+  document.querySelectorAll('a.cta[data-stripe="mine"]').forEach(function(a){
+    a.addEventListener("click", function(e){
+      e.preventDefault();
+      var email = prompt("Email for receipt:");
+      if(!email) return;
+      var address = prompt("Property address:");
+      if(!address) return;
+      postOrder("mine", email, address).then(function(d){
+        if(d && d.url) window.location.href = d.url;
+        else alert("Order capture failed: " + (d?.error || "unknown"));
+      }).catch(function(err){
+        alert("Order failed: " + err);
+      });
+    });
+  });
+  // P2 form
+  var p2 = document.getElementById("p2-form");
+  if(p2){
+    p2.addEventListener("submit", function(e){
+      e.preventDefault();
+      var email = p2.querySelector('[name="email"]').value;
+      var address = p2.querySelector('[name="address"]').value;
+      if(!email || !address) return alert("Email and address required");
+      postOrder("p2", email, address).then(function(d){
+        if(d && d.url) window.location.href = d.url;
+        else alert("Order capture failed: " + (d?.error || "unknown"));
+      }).catch(function(err){
+        alert("Order failed: " + err);
+      });
+    });
+  }
+})();
+</script>
+</script>
+</body>
+</html>
